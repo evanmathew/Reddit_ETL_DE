@@ -1,0 +1,27 @@
+id,title,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1e0bt8z,What do you use for realish time ETL?,42,45,Trick-Interaction396,2024-07-11 00:36:29,https://www.reddit.com/r/dataengineering/comments/1e0bt8z/what_do_you_use_for_realish_time_etl/,False,False,False,False
+1e0b3l3,Transitioning From Data Science to Data Engineering,41,7,on_the_mark_data,2024-07-11 00:02:51,https://www.reddit.com/r/dataengineering/comments/1e0b3l3/transitioning_from_data_science_to_data/,False,False,False,False
+1dzx7tb,Working with IBM Datastage for a year - career killer?,26,16,jagdarpa,2024-07-10 14:30:55,https://www.reddit.com/r/dataengineering/comments/1dzx7tb/working_with_ibm_datastage_for_a_year_career/,False,False,False,False
+1e0kvc9,Anyone else got a personal GitHub name they regret?,16,7,Pleasant-Aardvark258,2024-07-11 09:36:34,https://www.reddit.com/r/dataengineering/comments/1e0kvc9/anyone_else_got_a_personal_github_name_they_regret/,False,False,False,False
+1e03997,"You need to reposition yourself in the job market - you have 1 month to learn new skills and do hands-on projects, what would you do?",14,5,life_punches,2024-07-10 18:34:51,https://www.reddit.com/r/dataengineering/comments/1e03997/you_need_to_reposition_yourself_in_the_job_market/,False,False,False,False
+1e04wuj,SSIS CDC Alternative,12,16,Lurch1400,2024-07-10 19:42:56,https://www.reddit.com/r/dataengineering/comments/1e04wuj/ssis_cdc_alternative/,False,False,False,False
+1e04m8o,I want to learn FastAPI,6,9,Cloud_Lionhart,2024-07-10 19:30:40,https://www.reddit.com/r/dataengineering/comments/1e04m8o/i_want_to_learn_fastapi/,False,False,False,False
+1dzyrb0,Best way to run scheduled jobs from a GUI application?,6,9,boggle_thy_mind,2024-07-10 15:34:13,https://www.reddit.com/r/dataengineering/comments/1dzyrb0/best_way_to_run_scheduled_jobs_from_a_gui/,False,False,False,False
+1e03bpn,Best solution for one to one and one to many messaging queues?,6,3,Able_Ad9893,2024-07-10 18:37:31,https://www.reddit.com/r/dataengineering/comments/1e03bpn/best_solution_for_one_to_one_and_one_to_many/,False,False,False,False
+1e0lt01,Pivoting From DE Manufacturing to DE Healthcare,4,9,sqlinsix,2024-07-11 10:37:28,https://www.reddit.com/r/dataengineering/comments/1e0lt01/pivoting_from_de_manufacturing_to_de_healthcare/,False,False,False,False
+1e091k9,Data Versioning Tools for business ,5,2,ProfessionalPin7939,2024-07-10 22:31:56,https://www.reddit.com/r/dataengineering/comments/1e091k9/data_versioning_tools_for_business/,False,False,False,False
+1dzze2j,Where do you find high-quality long-form content?,4,9,swapripper,2024-07-10 16:00:21,https://www.reddit.com/r/dataengineering/comments/1dzze2j/where_do_you_find_highquality_longform_content/,False,False,False,False
+1e0l2u8,[Databricks] First time trying to optimise a Python DB job,3,5,dsvella,2024-07-11 09:50:54,https://www.reddit.com/r/dataengineering/comments/1e0l2u8/databricks_first_time_trying_to_optimise_a_python/,False,False,False,False
+1e0ahlr,Processing Oracle CDC changes from redo logs using AWS DMS and Managed Service for Apache Flink (formerly Kinesis Data Analytics) in near real time,4,2,Calm-Conclusion9358,2024-07-10 23:35:11,https://www.reddit.com/r/dataengineering/comments/1e0ahlr/processing_oracle_cdc_changes_from_redo_logs/,False,False,False,False
+1e0kogm,How Canva collects 25 billion events per day,2,0,rmoff,2024-07-11 09:23:20,https://www.canva.dev/blog/engineering/product-analytics-event-collection/,False,False,False,False
+1e0jzsx,"
+Streaming CSV files from S3 - what tools to use? (currently using Airflow and Pandas)
+",2,7,Sumdon_123,2024-07-11 08:34:45,https://www.reddit.com/r/dataengineering/comments/1e0jzsx/streaming_csv_files_from_s3_what_tools_to_use/,False,False,False,False
+1e0nflu,Can you achieve near real time processing with ADF?,1,0,PutridAd9446,2024-07-11 12:11:25,https://www.reddit.com/r/dataengineering/comments/1e0nflu/can_you_achieve_near_real_time_processing_with_adf/,False,False,False,False
+1e0n42s,Archiving Postgres data to Delta Lake tables,2,0,financequestioner1,2024-07-11 11:55:01,https://www.reddit.com/r/dataengineering/comments/1e0n42s/archiving_postgres_data_to_delta_lake_tables/,False,False,False,False
+1e0mtf9,Looking for Examples of Open Source Data Engineering Projects to contribute?,1,1,Lukkar,2024-07-11 11:38:21,https://www.reddit.com/r/dataengineering/comments/1e0mtf9/looking_for_examples_of_open_source_data/,False,False,False,False
+1e0lbjv,prefect pricing,1,0,limartje,2024-07-11 10:06:39,https://www.reddit.com/r/dataengineering/comments/1e0lbjv/prefect_pricing/,False,False,False,False
+1e0l483,"Bytebase 2.21.0 released, Schema change and version control for PostgreSQL/MySQL/Snowflake ...",1,0,Adela_freedom,2024-07-11 09:53:29,https://www.bytebase.com/changelog/bytebase-2-21-0/,False,False,False,False
+1e0k7w5,Starting new position - Advice,1,2,metis84,2024-07-11 08:50:54,https://www.reddit.com/r/dataengineering/comments/1e0k7w5/starting_new_position_advice/,False,False,False,False
+1e00r0q,DE practice for a DA/BI person,1,0,SquidsAndMartians,2024-07-10 16:54:32,https://www.reddit.com/r/dataengineering/comments/1e00r0q/de_practice_for_a_dabi_person/,False,False,False,False
+1e0ephb,Workato costs? ,0,0,Much-North-7732,2024-07-11 03:02:12,https://www.reddit.com/r/dataengineering/comments/1e0ephb/workato_costs/,False,False,False,False

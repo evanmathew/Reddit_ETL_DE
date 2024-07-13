@@ -1,0 +1,28 @@
+id,title,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1e0uag2,Not all orgs are ready for dbt,79,32,Data-Queen-Mayra,2024-07-11 17:18:13,https://www.reddit.com/r/dataengineering/comments/1e0uag2/not_all_orgs_are_ready_for_dbt/,False,False,False,False
+1e14hpe,What Are the Biggest Challenges in Data Engineering Today? Let's Discuss!,45,42,New-Ship-5404,2024-07-12 00:46:27,https://www.reddit.com/r/dataengineering/comments/1e14hpe/what_are_the_biggest_challenges_in_data/,False,False,False,False
+1e1fj72,Things you learned embarrassingly late?,40,29,bjogc42069,2024-07-12 11:41:05,https://www.reddit.com/r/dataengineering/comments/1e1fj72/things_you_learned_embarrassingly_late/,False,False,False,False
+1e19qzs,Equivalent of “micro partitioning” in Databricks?,14,6,thesumofall,2024-07-12 05:28:55,https://www.reddit.com/r/dataengineering/comments/1e19qzs/equivalent_of_micro_partitioning_in_databricks/,False,False,False,False
+1e19479,confused between AWS vs AZURE for data engineer role?no experience in cloud ☁️,7,3,ClearMushroom4119,2024-07-12 04:51:19,https://www.reddit.com/r/dataengineering/comments/1e19479/confused_between_aws_vs_azure_for_data_engineer/,False,False,False,False
+1e1a4h5,The feature store is a specialized data warehouse that make temporal dat modelling easy,6,0,jpdowlin,2024-07-12 05:51:20,https://www.reddit.com/r/dataengineering/comments/1e1a4h5/the_feature_store_is_a_specialized_data_warehouse/,False,False,False,False
+1e1ht0r,Most data goes underutilized,4,7,chrisgarzon19,2024-07-12 13:33:17,https://www.reddit.com/r/dataengineering/comments/1e1ht0r/most_data_goes_underutilized/,False,False,False,False
+1e18bfa," Considering Converting Snowflake Native Tables to Snowflake-Managed Iceberg on S3 - Cost and Capability Concerns
+
+",4,7,futuresapien161803,2024-07-12 04:05:57,https://www.reddit.com/r/dataengineering/comments/1e18bfa/considering_converting_snowflake_native_tables_to/,False,False,False,False
+1e1jfiq,Replace Databricks Spark Jobs (using Delta) with Polars,4,0,dataengineeringdude,2024-07-12 14:45:04,https://dataengineeringcentral.substack.com/p/replace-databricks-spark-jobs-using,False,False,False,False
+1e195do,RDS to RDS ETL,3,6,saadcarnot,2024-07-12 04:53:20,https://www.reddit.com/r/dataengineering/comments/1e195do/rds_to_rds_etl/,False,False,False,False
+1e0smt9,What is the Name for this Pattern? Is this just Data Mesh?,1,12,midwestegg,2024-07-11 16:08:17,https://www.reddit.com/r/dataengineering/comments/1e0smt9/what_is_the_name_for_this_pattern_is_this_just/,False,False,False,False
+1e1iuxt,How does ClickHouse and similar compare to Snowflake?,3,0,wallyflops,2024-07-12 14:20:08,https://www.reddit.com/r/dataengineering/comments/1e1iuxt/how_does_clickhouse_and_similar_compare_to/,False,False,False,False
+1e1dprc,BigQuery equivalent of Snowflake streams and tasks,2,0,limartje,2024-07-12 09:49:55,https://www.reddit.com/r/dataengineering/comments/1e1dprc/bigquery_equivalent_of_snowflake_streams_and_tasks/,False,False,False,False
+1e1byyj,Seeking Tool Recommendations for Visualizing Data Flows and Attribute-Level Mappings in a Complex Data Pipeline,2,1,Airwave8,2024-07-12 07:50:38,https://www.reddit.com/r/dataengineering/comments/1e1byyj/seeking_tool_recommendations_for_visualizing_data/,False,False,False,False
+1e0u8ou,Water usage data in buildings ,2,6,Head-Shake2028,2024-07-11 17:16:09,https://www.reddit.com/r/dataengineering/comments/1e0u8ou/water_usage_data_in_buildings/,False,False,False,False
+1e0u8ef,Coupling SFDC with medallion?,2,5,pankswork,2024-07-11 17:15:48,https://www.reddit.com/r/dataengineering/comments/1e0u8ef/coupling_sfdc_with_medallion/,False,False,False,False
+1e0s8co,In-Memory Analytics for Kafka using DuckDB,2,0,rmoff,2024-07-11 15:52:17,https://yokota.blog/2024/07/11/in-memory-analytics-for-kafka-using-duckdb/,False,False,False,False
+1e0s7nb,Spark job benchmark with newer version of EC2 instances ,2,0,Then_Crow6380,2024-07-11 15:51:28,https://www.reddit.com/r/dataengineering/comments/1e0s7nb/spark_job_benchmark_with_newer_version_of_ec2/,False,False,False,False
+1e1jpsy,Best lakehouse vs data lake implementation & tools?,3,3,Acrobatic_Sample_552,2024-07-12 14:57:12,https://www.reddit.com/r/dataengineering/comments/1e1jpsy/best_lakehouse_vs_data_lake_implementation_tools/,False,False,False,False
+1e1jcy4,Pinging REST API with JWT authentication in Azure Data Factory?,2,0,classicjuniper,2024-07-12 14:41:50,https://www.reddit.com/r/dataengineering/comments/1e1jcy4/pinging_rest_api_with_jwt_authentication_in_azure/,False,False,False,False
+1e1ikc4,Question about implementing ETL for web scraping,2,0,Alert-Implement-1480,2024-07-12 14:07:14,https://www.reddit.com/r/dataengineering/comments/1e1ikc4/question_about_implementing_etl_for_web_scraping/,False,False,False,False
+1e1fgrz,Keeping it no longer than 9-6 as data engineer / devops,1,3,keiskn,2024-07-12 11:37:21,https://www.reddit.com/r/dataengineering/comments/1e1fgrz/keeping_it_no_longer_than_96_as_data_engineer/,False,False,False,False
+1e130yi,Need help with parsing Json file from S3 to DW,1,1,Equivalent_Ant1426,2024-07-11 23:33:51,https://www.reddit.com/r/dataengineering/comments/1e130yi/need_help_with_parsing_json_file_from_s3_to_dw/,False,False,False,False
+1e1i99p,What would be my path to becoming a DE?,1,1,cdisco_havoc,2024-07-12 13:54:02,https://www.reddit.com/r/dataengineering/comments/1e1i99p/what_would_be_my_path_to_becoming_a_de/,False,False,False,False
+1e1i459,What's the first thing a DA should learn to work as a DE?,0,3,Unlikely_Finance1511,2024-07-12 13:47:24,https://www.reddit.com/r/dataengineering/comments/1e1i459/whats_the_first_thing_a_da_should_learn_to_work/,False,False,False,False

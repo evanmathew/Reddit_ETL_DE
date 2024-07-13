@@ -1,0 +1,76 @@
+# for more information concerning about airflow docker compose yaml: https://github.com/marclamberti/docker-airflow/blob/main/docker-compose.yml
+
+
+version: '3'
+
+x-airflow-common:
+  &airflow-common
+  image: redditde:latest # thats the name i set during building docker image 
+  environment:
+    - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
+    - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
+    - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@postgres:5432/airflow # setting the result backend to Postgres DB
+    - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow # setting the connection to Postgres DB
+    - AIRFLOW__CORE__LOGGING_LEVEL=INFO
+    - AIRFLOW__CORE__LOAD_EXAMPLES=False
+  volumes:
+    - ./config:/opt/airflow/config
+    - ./dags:/opt/airflow/dags
+    - ./data:/opt/airflow/data
+    - ./etls:/opt/airflow/etls
+    - ./logs:/opt/airflow/logs
+    - ./pipelines:/opt/airflow/pipelines
+    - ./plugins:/opt/airflow/plugins
+    - ./tests:/opt/airflow/tests
+    - ./utils:/opt/airflow/utils
+    - ./requirements.txt:/opt/airflow/requirements.txt
+    - ./airflow.cfg:/opt/airflow/airflow.cfg  
+  depends_on:
+    - postgres
+    - redis
+
+services:
+
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+      POSTGRES_PORT: 5432
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    command: 
+      - -c
+      - >
+        pip install -r /opt/airflow/requirements.txt &&
+        airflow db init &&
+        airflow db upgrade &&
+        airflow users create --username admin --firstname admin --lastname admin --role Admin --email airflow@airflow.com --password admin
+    restart: "no"
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    restart: always
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    restart: always
+
+  airflow-worker:
+    <<: *airflow-common
+    command: celery worker
+    restart: always
