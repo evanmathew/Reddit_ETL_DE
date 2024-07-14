@@ -38,36 +38,7 @@ This project demonstrates a complete data pipeline for extracting, transforming,
 2. **Transformation**: Data is processed using AWS Glue, transforming it into a structured format.
 3. **Loading**: The transformed data is loaded into Amazon Redshift for analysis.
 
-## Project Directory Structure
-
-Reddit_D_E/
-
-├── assets/
-
-│   └── RedditDataEngineering.png
-
-├── config/
-
-│   └── config.conf.example
-
-├── dags/
-│   └── reddit_dag.py
-├── data/
-│   └── output/
-│       └── reddit_20240712.csv
-├── etls/
-│   ├── aws_etl.py
-│   └── reddit_etl.py
-├── pipelines/
-│   ├── aws_s3_pipeline.py
-│   └── reddit_pipeline.py
-├── utils/
-│   └── constants.py
-├── .gitignore
-├── Dockerfile
-├── README.md
-├── airflow.env
-├── docker-compose.yml
-└── requirements.txt
+## Architecture Diagram
+![Architecture Diagram](RedditDataEngineering.png)
 
 
